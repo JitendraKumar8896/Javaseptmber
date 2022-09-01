@@ -1,0 +1,35 @@
+package arrays;
+
+public class MinAndMaxInArray {
+
+	void minMaxNumInArray(int a[]) {
+		int min = a[0], max = 0;
+		for (int i = 0; i < a.length; i++) {
+
+			for (int j = i + 1; j < a.length; j++) {
+
+				if (min > a[j])
+
+					max = a[i];
+
+				if (min < a[j])
+					min = a[i];
+			}
+
+		}
+
+		System.out.println("minimum number:" + max + "\nmaximum number: " + min);
+
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a[] = { 25, 45, 74, 4, 54 };
+
+		MinAndMaxInArray obj = new MinAndMaxInArray();
+		obj.minMaxNumInArray(a);
+
+	}
+
+}
