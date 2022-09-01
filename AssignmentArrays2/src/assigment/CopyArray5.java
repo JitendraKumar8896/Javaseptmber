@@ -1,0 +1,32 @@
+package assigment;
+
+import java.util.Scanner;
+
+public class CopyArray5 {
+
+	public static void main(String[] args) {
+	  Scanner sc = new  Scanner(System.in);
+	  System.out.print("Enter Size of Arrays:");
+	  int size = sc.nextInt();
+	  int arr[] = new int[size];
+	  int arrcopy[] = new int[size];
+	  System.out.println("Enter Element of array:");
+      for(int i=0;i<size;i++)
+      {
+    	  arr[i] = sc.nextInt();
+      }
+      System.out.println("Before Copy Arrays..");
+      for(int j =0;j < arr.length;j++)
+      {
+    	  System.out.print(" "+arr[j]);
+      }
+      System.out.println("\n After copy the Arrays..");
+      for( int j=0;j < arr.length;j++)
+      {
+    	arrcopy[j] = arr[j];  
+    	System.out.print(" "+arrcopy[j]);
+      }
+      
+	}
+
+}

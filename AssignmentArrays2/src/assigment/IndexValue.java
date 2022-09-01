@@ -1,0 +1,29 @@
+package assigment;
+
+public class IndexValue {
+	void index(int a[], int search) {
+
+		for (int i = 0; i < a.length; i++) {
+
+			if (a[i] == search) {
+				System.out.println("element founds:" + a[i]);
+				System.out.println("location at :" + i);
+				break;
+
+			}
+		}
+
+	}
+	public static void main(String[] args) {
+		int search = 55;
+		int a[] = { 14, 21, 55, 54, 5, 254,16, 41, 54 };
+
+		IndexValue aa = new IndexValue();
+         
+		aa.index(a, search);
+	        
+	    }
+
+	}
+
+
