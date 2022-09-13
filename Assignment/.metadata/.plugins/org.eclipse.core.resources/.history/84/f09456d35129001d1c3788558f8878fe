@@ -1,0 +1,25 @@
+package assigment;
+
+public class Replace0sAnd1Arrays {
+	
+	public static void main(String[] args) {
+		int arr[]={0,1,0,0,1,1,1,0,1};
+		int i;
+		  System.out.println("Original Array: ");
+		  for ( i = 0; i < arr.length; i++) {
+		   System.out.print(arr[i]+" ");
+		  }
+		 String str = Integer.toString(arr[i]);
+         int len = str.length();
+         String str1 = "";
+         for(int j=0; j<len;j++)
+         {
+        	 if(str.charAt(j) == '0')
+        		 str1  = str1 + '1';
+        	 else
+        		 str1 = str1 +str.charAt(j);
+         }
+         System.out.println("Converted Arays:"+str1 );
+	}
+
+}

@@ -1,0 +1,30 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class StaticMethod {
+	int  id,salary;
+	String name;
+	static String compname = "TCS";
+	StaticMethod(int id, int salary,String name)
+	{
+		this.id = id;
+		this.name = name;
+		this.salary = salary;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Id:");
+        int id = sc.nextInt();
+        System.out.print("Enter Name:");
+        String name = sc.next();
+        System.out.println("Enter salary:");
+        int salary = sc.nextInt();
+        
+        StaticMethod st = new StaticMethod(id, salary, name);
+        //StaticMethod.compname;
+        System.out.println(st.id +"\n"+st.name);
+	}
+
+}

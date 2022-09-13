@@ -1,0 +1,21 @@
+package assigment;
+
+public class SwapArrays {
+
+	public static void main(String[] args) {
+		int arr[] = {2, 4, 9, 0};
+         System.out.println("Before Swapping Arrays:");
+         for(int element : arr)
+         {
+        	 System.out.print(element+" ");
+         }
+         int temp = arr[3];
+         arr[3] = arr[0];
+         arr[0] = temp;
+       System.out.println("\n After Swapping Arrays:"); 
+       for(int element : arr)
+    	   System.out.print(element+" ");
+       
+	}
+
+}

@@ -1,0 +1,21 @@
+package test;
+
+import java.util.Scanner;
+
+public class EvenWhile {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Limit:");
+		int limit = sc.nextInt();
+		int c =1;
+		while(c>=limit)
+		{
+			if(limit%2==0)
+				System.out.println(limit);
+		}
+
+	}
+
+}

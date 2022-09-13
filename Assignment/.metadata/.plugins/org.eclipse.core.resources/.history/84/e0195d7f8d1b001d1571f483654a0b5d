@@ -1,0 +1,18 @@
+package constructor;
+
+public class Department {
+	 int id;
+	 String stream;
+	
+	public Department(int id, String stream)
+	{
+		this.id = id;
+		this.stream = stream;
+	}
+	
+	public String tostring()
+	{
+		return id + " "+ stream;
+	}
+	
+}

@@ -1,0 +1,16 @@
+package constructor;
+
+public class Student {
+  String name, rollnumber;
+ Department d;
+ public Student(String name, String rollnumber,Department d)
+ {
+	 this.name = name;
+	 this.rollnumber = rollnumber;
+	 this.d = d;
+ }
+ public String toString()
+ {
+	   return  name + " "+ rollnumber+" "+d;
+ }
+}

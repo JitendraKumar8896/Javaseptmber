@@ -1,0 +1,32 @@
+package classesobjects;
+
+import java.util.Scanner;
+
+public class SubjectMarks {
+
+	public static void main(String[] args) {
+		int  hindi,english, math, physics, chemestry;
+		String name,dep;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Name:");
+		name = sc.next();
+		System.out.println("Enter Department:");
+		dep = sc.next();
+				
+		System.out.print("Enter marks of hindi:");
+	    hindi = sc.nextInt();
+	    System.out.print("Enter marks of english:");
+	    english = sc.nextInt();		
+	    System.out.print("Enter marks of math:");
+	    math = sc.nextInt();		
+	    System.out.print("Enter marks of physics:");
+	    physics =sc.nextInt();		
+	    System.out.print("Enter marks of chemestry:");
+	    chemestry = sc.nextInt();
+	    
+	    SubjectMarks s1 = new SubjectMarks();
+	    SubjectMarks s2 = new SubjectMarks(); 
+       
+	}
+
+}

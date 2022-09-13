@@ -1,0 +1,36 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class ArraysExample {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int size=sc.nextInt();
+        int sum1=0,sum2=0; 
+        int arr[]=new int[size];
+        System.out.println("enter elements of the arrays :");
+
+        for(int i=0;i<size;i++)
+        {
+            arr[i]=sc.nextInt();
+
+        }
+       for(int i = 0;i<size;i++)
+       {
+    	    if(arr[i]%2==0) {
+    	    	//sum1 = sum1+arr[i];
+    	    	System.out.println(arr[i]);
+    	    	
+    	    }
+    	 //   System.out.println("Even Addition:"+sum1);
+			/*
+			 * else { sum2 = sum2+arr[i]; } 
+			 * System.out.println("Odd Addition Is:"+sum2);
+			 */
+       }
+        
+	}
+
+}

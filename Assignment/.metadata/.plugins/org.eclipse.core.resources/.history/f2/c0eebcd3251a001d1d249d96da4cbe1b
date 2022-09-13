@@ -1,0 +1,18 @@
+package inheritance;
+
+public class Car {
+   int id ;
+   String name, contect;
+   Driver d;
+   Car(int id,String name,String contect, Driver d)
+   {
+	   this.id =id;
+	   this.name = name;
+	   this.contect = contect;
+	   this.d =d;
+   }
+   public String toString()
+   {
+	   return name+" "+contect;
+   }
+}

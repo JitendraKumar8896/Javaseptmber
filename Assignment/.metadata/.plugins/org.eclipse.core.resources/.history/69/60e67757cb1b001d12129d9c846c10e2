@@ -1,0 +1,11 @@
+package constructor;
+
+public class PersonContainment {
+
+	public static void main(String[] args) {
+		
+		Address a = new Address("Khalilabad","Uttar Pradesh"+"India");
+		Person p = new Person("Jitendra","Male",22, a);
+	}
+
+}

@@ -1,0 +1,59 @@
+package arrayassignment;
+import java.util.Scanner;
+public class SymetricsMatrix {
+
+	public static void main(String[] args) {
+
+		int i, j, rows, columns, count = 1;
+		
+		Scanner sc= new Scanner(System.in);
+		
+		System.out.println(" Enter Rows and Columns :  ");
+		rows = sc.nextInt();
+		columns = sc.nextInt();
+		
+		int[][] org_arr = new int[rows][columns];
+		int[][] trans_arr = new int[rows][columns];
+		
+		System.out.println(" Please Enter the Sparse Matrix Items :  ");
+		for(i = 0; i < rows; i++) 
+		{
+			for(j = 0; j < columns; j++) 
+			{
+				org_arr[i][j] = sc.nextInt();
+			}		
+		}
+		
+		for(i = 0; i < org_arr.length ; i++)
+		{
+			for(j = 0; j < org_arr[0].length; j++)
+			{
+				trans_arr[j][i] = org_arr[i][j];
+			}
+		}
+		
+		System.out.println("\nAfter Transposing Matrix Items are :");
+		for(i = 0; i < trans_arr.length ; i++)
+		{
+			for(j = 0; j < trans_arr[0].length; j++)
+			{
+				System.out.print(+trans_arr[i][j]);
+			}
+			System.out.print("\n");
+		}
+		
+		for(i = 0; i < org_arr.length ; i++)
+		{
+			for(j = 0; j < org_arr[0].length; j++)
+			{
+				if(org_arr[i][j] != trans_arr[i][j])
+				{
+					count++;
+					break;
+				}
+				System.out.println(" ");
+			}
+		}
+	}
+		
+}

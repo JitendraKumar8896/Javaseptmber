@@ -1,0 +1,24 @@
+package constructor;
+
+public class StudentIndividual1 {
+
+	public static void main(String[] args) {
+		StudentInd22 s1 = new StudentInd22("111","Jitendra","Third standerd",550);
+		StudentInd22 s2 = new StudentInd22("112","Vijendra","Third standerd",555);
+		StudentInd22 s3 = new StudentInd22("113","Amit","five standerd",545);
+		StudentInd22 s4 = new StudentInd22("114","Akash","fourth standerd",505);
+		StudentInd22 s5 = new StudentInd22("115","Sumit","second standerd",550);
+	    System.out.println("Roll NUmber \t Name \t Standard \t Total Marks");
+	    System.out.println("-----------------------------------------------------");
+	    System.out.println(s1.getRollNumber()+"\t "+s1.getName()+ "\t  "+ s1.getStandard()+"\t "+s1.getTotalMarks());
+	    System.out.println("-----------------------------------------------------");
+	    System.out.println(s2.getRollNumber()+" \t "+s2.getName()+ "\t  "+ s2.getStandard()+"\t "+s2.getTotalMarks());
+	    System.out.println("-----------------------------------------------------");
+	    System.out.println(s3.getRollNumber()+"\t "+s3.getName()+ "\t "+ s3.getStandard()+"\t "+s3.getTotalMarks());
+	    System.out.println("-----------------------------------------------------");
+	    System.out.println(s4.getRollNumber()+"\t "+s4.getName()+ " \t"+ s4.getStandard()+"\t "+s4.getTotalMarks());
+	    System.out.println("-----------------------------------------------------");
+	    System.out.println(s5.getRollNumber()+"\t "+s5.getName()+ " \t"+ s5.getStandard()+" \t"+s5.getTotalMarks());
+	}
+
+}

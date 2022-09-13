@@ -1,0 +1,15 @@
+package constructor;
+
+public class Student {
+ private String name, rollnumber;
+ 
+ public Student(String name, String rollnumber)
+ {
+	 this.name = name;
+	 this.rollnumber = rollnumber;
+ }
+ public String toString()
+ {
+	   return  name + " "+ rollnumber;
+ }
+}

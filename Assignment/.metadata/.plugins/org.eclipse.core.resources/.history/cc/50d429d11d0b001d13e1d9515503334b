@@ -1,0 +1,22 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class UserOfPower {
+
+	public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);		
+     System.out.print("Enter Base:");
+     int base = sc.nextInt();
+     System.out.println("Enter Power:");
+     int pow = sc.nextInt();
+     int res =1;
+     for(int i=1;i!=0;i--)
+     {
+    	 res *= base; 
+     }
+     System.out.println("Result:" +res);
+     
+	}
+
+}

@@ -1,0 +1,16 @@
+package abstraction;
+
+public class CarMain {
+
+	public static void main(String[] args) {
+		Beleno b = new Beleno();
+		b.setColor("White");
+		b.setPrice(120000);
+	    
+		System.out.println(b.getColor()+" "+b.getPrice());
+        b.engine();
+        b.features();
+        b.dashboard();
+	}
+
+}

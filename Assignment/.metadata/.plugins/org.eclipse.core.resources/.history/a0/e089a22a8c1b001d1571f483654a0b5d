@@ -1,0 +1,14 @@
+package constructor;
+
+public class StudentDepartment {
+
+	public static void main(String[] args) {
+		Department d1 =  new Department(11,"JItendra");
+		Department d2 =  new Department(12,"Vijendra");
+	    Department d3 =  new Department(13,"Amit");
+
+	    Student s1 = new Student("Computer Science ",110);
+	    
+	}
+
+}

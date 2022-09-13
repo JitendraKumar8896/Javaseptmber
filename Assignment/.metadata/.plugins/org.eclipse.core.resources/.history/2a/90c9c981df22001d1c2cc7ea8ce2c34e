@@ -1,0 +1,15 @@
+package interface1;
+
+public class CollegeTransportMain {
+
+	public static void main(String[] args) {
+	  ABC a = new ABC();
+	  a.departments();
+	  a.canteen();
+	  a.library();
+      a.transport();
+      a.employee();
+      a.classRooms();
+	}
+
+}

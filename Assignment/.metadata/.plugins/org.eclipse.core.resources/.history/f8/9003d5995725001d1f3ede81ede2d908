@@ -1,0 +1,36 @@
+package array;
+
+import java.util.Scanner;
+
+public class SumOfEvenAndOddElementInArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int sum1 = 0, sum2 = 0;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter Array Size :");
+		int size = sc.nextInt();
+		int arr[] = new int[size];
+		int i;
+		System.out.println("Enter Array elements:");
+		for (i = 0; i < size; i++) {
+			arr[i] = sc.nextInt();
+		}
+
+		System.out.println("Even sum:");
+
+		for (i = 0; i < size; i++) {
+			if (arr[i] % 2 == 0)
+				sum1 = sum1 + arr[i];
+		}
+		System.out.println(sum1);
+		System.out.println("Odd sum:");
+		for (i = 0; i < size; i++) {
+			if (arr[i] % 2 != 0)
+				sum2 = sum2 + arr[i];
+
+		}
+		System.out.println(sum2);
+	}
+
+}

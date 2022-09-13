@@ -1,0 +1,22 @@
+package classesobjects;
+
+import java.util.Scanner;
+
+public class VolumeOfBox {
+       void volume(double l, double w, double h)
+       {
+    	double vol;
+    	   
+		vol = l*w*h;
+    	   System.out.println("volume of box :"+ vol);
+       }
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		//System.out.println("Enter length ,width and height:");
+	//	l =sc.nextDouble();
+		VolumeOfBox c1 = new VolumeOfBox();
+		c1.volume(10,20,4.4);
+
+	}
+
+}

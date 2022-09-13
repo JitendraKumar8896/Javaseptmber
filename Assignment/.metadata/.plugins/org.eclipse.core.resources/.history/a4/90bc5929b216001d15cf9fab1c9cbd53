@@ -1,0 +1,28 @@
+package pattern;
+
+public class ClassPattern {
+
+	public static void main(String[] args) {
+//		int rows = 5;
+//		System.out.println("## Printing the pattern ##");
+//		for (int i = rows; i >= 1; i--)
+//		{
+//			for (int j = rows; j >= i; j--)
+//			{
+//				System.out.print(j + " ");
+//			}
+//			System.out.println();
+//		}
+//		
+		int row = 9;
+		for(int i = row; i>=1;i--)
+		{
+			for (int j=row;j>=i;j--)
+			{
+				System.out.print(j);
+			}
+		  for(int i = )
+		}
+	}
+
+}

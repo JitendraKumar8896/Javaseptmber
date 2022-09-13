@@ -1,0 +1,10 @@
+package classesobjects;
+
+public class MthodOTheClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

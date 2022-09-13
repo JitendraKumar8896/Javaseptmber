@@ -1,0 +1,21 @@
+package assignment;
+
+import java.util.Scanner;
+
+public class CalculateTheNmberOfDigit {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int num2,product=1,rem;d
+		System.out.print("Enter Number of digit ;");
+        int num =sc.nextInt();
+        num2 = num;
+        for(int i =num;i>=0; i++)
+        {
+        	rem = num%10;
+        	product = product*rem;
+        }
+        System.out.println("The product of digits :"+ product);
+	}
+	
+}

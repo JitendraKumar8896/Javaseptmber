@@ -1,0 +1,25 @@
+package pattern;
+
+public class Pattern10 {
+
+	public static void main(String[] args) {
+		System.out.println("Related to Second Program \n");
+		 
+		  for(int i=1;i<=r;i++) 
+		  { 
+		     for(int j =r-1; j >= i;j--) 
+		     { 
+		        System.out.print(" ");
+		     }
+		      for (int k =1; k <=i;k++)
+		       { 
+		       System.out.print(k+" "); 
+		       }
+		      System.out.println();
+		  
+		  }
+		 
+
+	}
+
+}

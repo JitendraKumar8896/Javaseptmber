@@ -1,0 +1,10 @@
+package interface1;
+
+public interface College extends Transport{
+  public void departments();
+  public void library();
+  public void canteen();
+  public void classRooms();
+  
+	
+}

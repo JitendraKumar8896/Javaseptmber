@@ -1,0 +1,21 @@
+package person;
+
+public class PersonMain {
+
+	public static void main(String[] args) {
+		IdProof idf = new IdProof();
+		idf.setIdName("Adhar Card");
+		idf.setValidity("20/2034");
+		idf.setNumber("456089936575");
+		
+		Person p = new Person();
+		p.setId(11);
+		p.setName("Jitendra");
+		p.setContact("8896642066");
+		p.setAddress("Pune");
+        p.setP(idf);
+		
+    
+	}
+
+}

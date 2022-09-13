@@ -1,0 +1,15 @@
+package constructor;
+
+public class StudentIndividual1 {
+
+	public static void main(String[] args) {
+		StudentInd22 s1 = new StudentInd22("111","Jitendra","Third standerd",550);
+		StudentInd22 s2 = new StudentInd22("112","Vijendra","Third standerd",555);
+		StudentInd22 s3 = new StudentInd22("113","Amit","five standerd",545);
+		StudentInd22 s4 = new StudentInd22("114","Akash","fourth standerd",505);
+		StudentInd22 s5 = new StudentInd22("115","Sumit","second standerd",550);
+		s1.getRollNumber();
+	    System.out.println(s1.getRollNumber());
+	}
+
+}

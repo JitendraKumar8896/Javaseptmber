@@ -1,0 +1,28 @@
+package classesobjects;
+
+public class FibbonacciSeries {
+	void fibonacci(int num) {
+		 int a, b=1,fibo=0;
+	        int c= fibo;
+	        
+	        for(int i = 1; i<=num;i++)
+	        {
+	        	System.out.print(fibo+ " ");
+	        	a = b;
+	        	b = fibo;
+	        	fibo  = a+b;	
+	        }
+	        
+		
+	}
+	void revere() {
+		
+		
+	}
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

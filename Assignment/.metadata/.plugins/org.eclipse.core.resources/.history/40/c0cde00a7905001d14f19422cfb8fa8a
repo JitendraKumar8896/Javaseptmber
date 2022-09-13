@@ -1,0 +1,12 @@
+package days;
+
+import java.util.Scanner;
+
+public class TotalNumberOfDay {
+
+	public static void main(String
+			er sc = new Scanner(System.in);
+
+	}
+
+}

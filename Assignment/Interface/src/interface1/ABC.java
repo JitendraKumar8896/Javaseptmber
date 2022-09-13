@@ -1,0 +1,29 @@
+package interface1;
+
+public class ABC extends ABCMainBranch implements College {
+	public void departments()
+	{
+		System.out.println("4 Department ");
+	} 
+	
+	public void library()
+	{
+		System.out.println("2 Library Available Here..");
+	}
+	
+	public void canteen()
+	{
+		 System.out.println("1 Canteen ");
+	}
+	
+	public void transport()
+	{
+		System.out.println("Transport Available Here ..");
+	}
+    public void classRooms()
+    {
+    	System.out.println("We hava a Class rooms!!!!");
+    }
+
+	
+}

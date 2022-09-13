@@ -1,0 +1,14 @@
+package instance22;
+
+public class GrandFatherMain {
+
+	public static void main(String[] args) {
+		GrandFather fd= new GrandFather();
+		fd.setData("Ramesh", "Kumar");
+		((Father) fd).setData1("Lalita", "Kumari");
+		((Child) fd).setData2("Ajay","D");
+		System.out.println(fd.getData()+" "+((Father) fd).getData1()+" "+((Child) fd).getData2());
+
+	}
+
+}

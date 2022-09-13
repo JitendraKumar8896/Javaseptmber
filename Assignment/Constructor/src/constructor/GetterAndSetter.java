@@ -1,0 +1,59 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class GetterAndSetter {
+	int id;
+	String name;
+	float salary;
+	
+	
+	GetterAndSetter()
+	{
+		id=0;
+		name="";
+		salary=0;
+		
+	}
+	GetterAndSetter(int id,String name,float salary)
+	{
+		this.id=id;
+		this.name=name;
+		this.salary=salary;
+		
+	}
+	void display()
+	{
+		System.out.println("Employee Id :"+id);
+		System.out.println("Employee name: "+name);
+		System.out.println("Employee Salary :"+salary);
+	}
+	
+	public static void main(String[] args) {
+		
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Id of employee  :");
+		int id=sc.nextInt();
+		System.out.println("Enter Name of employee :");
+		String name= sc.next();
+		System.out.println("Enter salary of employee :");
+		float salary = sc.nextFloat();
+		System.out.println("Enter Second Employee Record...");
+		System.out.println("Enter Id of employee  :");
+	    id=sc.nextInt();
+		System.out.println("Enter Name of employee :");
+	    name= sc.next();
+		System.out.println("Enter salary of employee :");
+	    salary = sc.nextFloat();
+		GetterAndSetter ob=new GetterAndSetter(id,name,salary);
+		GetterAndSetter ob1=new GetterAndSetter(id,name,salary);
+		
+		System.out.println("\n-----------Employee Details----------------\n"); 
+		ob.display();
+		System.out.println("\n--------------------------------------------");
+		ob1.display();
+		System.out.println("----------------------------------------------");
+
+	}
+
+}

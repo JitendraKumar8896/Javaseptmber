@@ -1,0 +1,53 @@
+package pattern;
+
+import java.util.Scanner;
+
+public class ClassPattern {
+	private static void printPattern1(int rows) {
+		
+		for (int i = 1; i <= rows; i++) {
+		
+			int numberOfWhiteSpaces = rows - i;
+
+			//print leading white spaces
+			printString(" ", numberOfWhiteSpaces);
+
+			
+			printString(i + " ", i);
+
+			
+			System.out.println("");
+		}
+	}
+
+	//utility function to print string given times
+	private static void printString(String s, int times) {
+		for (int j = 0; j < times; j++) {
+			System.out.print(s);
+		}
+	}
+
+
+	public static void main(String[] args) {
+		
+	    int rows = 9;
+		for (int i = rows; i >= 1; i--) {
+			// white spaces in the front of the numbers
+			int numberOfWhiteSpaces = i*2;
+
+			//print leading white spaces
+			printString(" ", numberOfWhiteSpaces);
+
+			int j;
+			//print numbers
+		//	for(int x=i;x=i; j--) {
+			///	System.out.print(j+" ");
+		//	}
+
+			//move to next line
+			System.out.println("");
+		}
+		
+	}
+}		
+		

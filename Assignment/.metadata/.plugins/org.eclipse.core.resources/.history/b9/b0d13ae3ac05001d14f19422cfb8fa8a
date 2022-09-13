@@ -1,0 +1,33 @@
+package days;
+
+import java.util.Scanner;
+
+public class StringExample {
+
+	public static void main(String[] args) {
+		
+		    Scanner sc = new Scanner(System.in); 
+		    int level; 
+		    System.out.println("Enter Level:");
+		    level = sc.nextInt();
+		     
+		    String levelString=" ";  
+		     
+		      
+		    switch(levelString){    
+		      
+		    case "Beginner": level=1;  
+		    break;    
+		    case "Intermediate": level=2;  
+		    break;    
+		    case "Expert": level=3;  
+		    break;    
+		    default: System.out.println("Enter Invalid Data!!!");  
+		    break;  
+		    }    
+		    System.out.println("Your Level is: "+level);  
+
+
+	}
+
+}

@@ -1,0 +1,85 @@
+package constructor;
+
+import java.util.Scanner;
+
+public class PersonalInfo {
+	int id,age;
+	long contact;
+	String name,email,address;
+	
+	PersonalInfo(int i,int a,long co,String n,String e,String ad)
+	{	
+		id=i;
+		age=a;
+		contact=co;
+		name=n;
+		email=e;
+		address=ad;
+		
+	}
+	
+	  public String toString()
+	  {
+	  	return id+"\n"+age+"\n"+contact+"\n "+name+"\n "+email+"\n "+address;
+	  	}
+	
+	public static void main(String[] args) {
+		System.out.println();
+		System.out.println("__Person Details__");
+		Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter ID : ");
+		int id=sc.nextInt();
+		System.out.println("Enter Age : ");
+		int age=sc.nextInt();
+		System.out.println("Enter contact : ");
+		long contect=sc.nextLong();
+		System.out.println("Enter name : ");
+		String name=sc.next();
+		System.out.println("Enter address : ");
+		String add=sc.next();
+		System.out.println("Enter Valid E-mail ID : ");
+		String email=sc.next();
+		
+		PersonalInfo p1= new PersonalInfo(id,age,contect,name, email, add);
+		
+		System.out.println("Enter ID : ");
+		id=sc.nextInt();
+		System.out.println("Enter Age : ");
+		age=sc.nextInt();
+		System.out.println("Enter contact : ");
+		contect=sc.nextLong();
+		System.out.println("Enter name : ");
+		name=sc.next();
+		System.out.println("Enter address : ");
+		add=sc.next();
+		System.out.println("Enter Valid E-mail ID : ");
+		email=sc.next();
+		
+		PersonalInfo p3=new PersonalInfo(id,age,contect,name, email, add);
+		System.out.println("Enter ID : ");
+		id=sc.nextInt();
+		System.out.println("Enter Age : ");
+		age=sc.nextInt();
+		System.out.println("Enter contact : ");
+		contect=sc.nextLong();
+		System.out.println("Enter name : ");
+		name=sc.next();
+		System.out.println("Enter address : ");
+		add=sc.next();
+		System.out.println("Enter Valid E-mail ID : ");
+		email=sc.next();
+		
+		PersonalInfo p2=new PersonalInfo(id,age,contect,name, email, add);
+		
+		System.out.println("----------Person Details-------------");
+		System.out.println(p1);
+		System.out.println("\n-----------------------------------");
+		System.out.println(p2);
+		System.out.println("\n-----------------------------------");
+		System.out.println(p3);
+		System.out.println("\n-----------------------------------");
+		
+	}
+
+}

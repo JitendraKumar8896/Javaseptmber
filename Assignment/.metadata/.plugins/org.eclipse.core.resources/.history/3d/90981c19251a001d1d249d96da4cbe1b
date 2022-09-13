@@ -1,0 +1,19 @@
+package inheritance;
+
+public class Driver {
+     int id;
+     String name,contect;
+     
+     Driver(int id , String name, String contect)
+     {
+    	 this.id =id;
+    	 this.name = name;
+    	 this.contect = contect;
+     }
+     
+     public String toString()
+     {
+    	 return id+ " "+ name+" "+contect;
+     }
+}
+     

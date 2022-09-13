@@ -1,0 +1,14 @@
+package constructor;
+
+public class PersonContainment {
+
+	public static void main(String[] args) {
+		
+		Address a = new Address("Khalilabad","Uttar Pradesh"+"India",null, 272175);
+		
+		
+		Person p = new Person("Jitendra","Male",22, a);
+		System.out.println(p);
+	}
+
+}

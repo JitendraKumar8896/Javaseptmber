@@ -1,0 +1,15 @@
+package days;
+
+import java.util.Scanner;
+
+public class EvenOddSumNumber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter number of Digits:");
+		int num =sc.nextInt();
+        int  digit = num%10;
+        System.out.println(digit);
+	}
+
+}

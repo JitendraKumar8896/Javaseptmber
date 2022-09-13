@@ -1,0 +1,31 @@
+package person;
+
+public class IdProof extends Person{
+ String idname,number,validity;
+
+public String getIdName() {
+	return idname;
+}
+
+public void setIdName(String idname) {
+	this.idname = idname;
+}
+
+public String getNumber() {
+	return number;
+}
+
+public void setNumber(String number) {
+	this.number = number;
+}
+
+public String getValidity() {
+	return validity;
+}
+
+public void setValidity(String validity) {
+	this.validity = validity;
+}
+ 
+ 
+}

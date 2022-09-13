@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 3 elements to &apos;AssignmentArrays2/src/assigment&apos;&#x0D;&#x0A;- Original project: &apos;ArraysAssignment&apos;&#x0D;&#x0A;- Destination element: &apos;AssignmentArrays2/src/assigment&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     arrayassignment.SumOfDiagonalElement.java&#x0D;&#x0A;     arrayassignment.SumOfLowerTriangular.java&#x0D;&#x0A;     arrayassignment.SymetricsMatrix.java" description="Copy compilation units" destination="=AssignmentArrays2/src&lt;assigment" element1="/src&lt;arrayassignment{SumOfDiagonalElement.java" element2="/src&lt;arrayassignment{SumOfLowerTriangular.java" element3="/src&lt;arrayassignment{SymetricsMatrix.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1661874091145" units="3" version="1.0"/>
+</session>
