@@ -24,14 +24,23 @@ public class WithoutUsingMethod {
 		 	
 		
 			/*
-			 * int i; char c[]; Scanner sc=new Scanner(System.in);
+			 * int i; char c[];
 			 * 
-			 * System.out.println("Enter the string"); String s1=sc.nextLine();
+			 *  Scanner sc=new Scanner(System.in);
+			 * 
+			 * System.out.println("Enter the string"); 
+			 * 
+			 * String s1=sc.nextLine();
 			 * 
 			 * char[] ch = s1.toCharArray();
-			 * System.out.print("Uppercase("+s1+")--------->"); for(i=0;i<s1.length();i++) {
+			 * System.out.print("Uppercase("+s1+")--------->");
 			 * 
-			 * if(ch[i]>=97 && ch[i]<=122 ) { ch[i]-=32; }
+			 *  for(i=0;i<s1.length();i++)
+			 *   {
+			 * 
+			 * if(ch[i]>=97 && ch[i]<=122 ) 
+			 * { 
+			 * ch[i]-=32; }
 			 * 
 			 * }
 			 * 
